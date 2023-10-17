@@ -1,3 +1,6 @@
+This is a temporary duplicate version of mdtraj for msmbuilder2022 installation.
+--------------------------------------------------------------------------------
+
 ## Note on current project status
 
 TLDR: MDTraj is currently undergoing a transition to new maintainers (the Folding@home consortium).
