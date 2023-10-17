@@ -29,7 +29,7 @@ except ValueError:
 
 
 ##########################
-VERSION = "1.9.10.dev0"
+VERSION = "1.9.9"
 ISRELEASED = False
 __version__ = VERSION
 ##########################
@@ -247,10 +247,10 @@ def geometry_extensions():
 write_version_py(VERSION, ISRELEASED, 'mdtraj/version.py')
 
 metadata = \
-    dict(name='mdtraj',
+    dict(name='mdtraj-duplicate',
       author='Robert McGibbon',
       author_email='rmcgibbo@gmail.com',
-      description=DOCLINES[0],
+      description="This is a temporary duplicate version of mdtraj for msmbuilder2022 installation.",
       long_description="\n".join(DOCLINES[2:]),
       version=__version__,
       license='LGPLv2.1+',
